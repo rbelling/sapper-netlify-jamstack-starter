@@ -36,8 +36,8 @@ const posts = [
 
 			<pre><code>npx degit sveltejs/sapper-template#rollup my-app
 			cd my-app
-			npm install # or yarn!
-			npm run dev
+			yarn # or yarn!
+			yarn dev
 			</code></pre>
 
 			<h2>Step two</h2>

@@ -3,8 +3,8 @@
 The default [Sapper](https://github.com/sveltejs/sapper) template, with webpack and configured to deploy to netlify. To get started:
 
 ```bash
-npm install # or yarn!
-npm run dev
+yarn
+yarn dev
 ```
 
 Open up [localhost:3000](http://localhost:3000) and start clicking around. You should check the console and see the `hello.js` lambda being called on mount.
@@ -68,7 +68,7 @@ When using Svelte components installed from npm, such as [@sveltejs/svelte-virtu
 Because of that, it's essential that webpack doesn't treat the package as an *external dependency*. You can either modify the `externals` option under `server` in [webpack.config.js](webpack.config.js), or simply install the package to `devDependencies` rather than `dependencies`, which will cause it to get bundled (and therefore compiled) with your app:
 
 ```bash
-npm install -D @sveltejs/svelte-virtual-list
+yarn add -D @sveltejs/svelte-virtual-list
 ```
 
 
